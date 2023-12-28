@@ -3,8 +3,7 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { ConfirmationDialogComponent } from './confirmation-dialog.component';
 
-fdescribe('ConfirmationDialogComponent', () => {
-  
+describe('ConfirmationDialogComponent', () => {  
 
   it('should open dialog if isOpen is true', () => {
     const props = {
