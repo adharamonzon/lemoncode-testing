@@ -1,5 +1,5 @@
 import { Column, Cell } from 'react-table';
-import { mapToCollection } from 'common/mappers';
+import { mapToCollection } from './../../../common/mappers';
 
 const mapColumnFromStringToColumn = (column: string): Column => ({
   accessor: column,

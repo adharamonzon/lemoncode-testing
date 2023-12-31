@@ -36,6 +36,7 @@ export const LoginFormComponent: React.FunctionComponent<Props> = (props) => {
             type="submit"
             variant="contained"
             color="primary"
+            name="login"
             className={classes.submit}
           >
             Login

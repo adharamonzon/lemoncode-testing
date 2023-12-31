@@ -43,5 +43,5 @@ SnackbarComponent.defaultProps = {
     horizontal: 'right',
     vertical: 'top',
   },
-  autoHideDuration: 3000,
+  autoHideDuration: 5000,
 };
