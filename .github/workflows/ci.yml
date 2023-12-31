@@ -2,15 +2,15 @@ name: CI workflow
 
 on: pull_request
 
-jobs: 
+jobs:
   ci:
-    run-on: ubuntu-latest
-    steps: 
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout rspository
-      uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
-      -name: Install
-      run: npm ci
+      - name: Install
+        run: npm ci
 
-      -name: Test e2e
-      run: npm run test:e2e:ci
+      - name: Test e2e
+        run: npm run test:e2e:ci
